@@ -42,7 +42,8 @@
           },
           "arm" : {
             "config-opts" : [
-              "--build=arm-unknown-linux-gnueabi"
+              "--build=arm-unknown-linux-gnueabi",
+              "--with-libav-extra-configure='--build=arm-unknown-linux-gnueabi'"
             ]
           }
         }
@@ -64,8 +65,8 @@
         {
           "type"   : "git",
           "url"    : "git://git.gnome.org/librest.git",
-          "branch" : "librest-0.7.12",
-          "commit" : "d752ff6017eaa218678b708aba231be98c9940a2"
+          "branch" : "0.8.0",
+          "commit" : "e4e3f950a05ca14349b471d35cf5e2658cbc61dd"
         }
       ]
     },
