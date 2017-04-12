@@ -42,8 +42,7 @@
           },
           "arm" : {
             "config-opts" : [
-              "--build=arm-unknown-linux-gnueabi",
-              "--with-libav-extra-configure='--build=arm-unknown-linux-gnueabi'"
+              "--build=arm-unknown-linux-gnueabi"
             ]
           }
         }
