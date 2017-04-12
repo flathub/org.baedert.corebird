@@ -38,7 +38,8 @@
         {
           "type"   : "git",
           "url"    : "git://anongit.freedesktop.org/gstreamer/gst-libav",
-          "branch" : "1.8"
+          "branch" : "1.8.3",
+          "commit" : "99a08121307fb22e0b92d8980e4630d9b4b395ee"
         }
       ]
     },
@@ -49,7 +50,8 @@
         {
           "type"   : "git",
           "url"    : "git://git.gnome.org/librest.git",
-          "branch" : "librest-0-7"
+          "branch" : "librest-0.7.12",
+          "commit" : "d752ff6017eaa218678b708aba231be98c9940a2"
         }
       ]
     },
@@ -60,7 +62,8 @@
         {
           "type" : "git",
           "url"  : "git://git.gnome.org/vala",
-          "branch" : "0.34"
+          "branch" : "0.34.7",
+          "commit" : "ba9368c2552102841a5441eb9c5ef9632a4a4607"
         }
       ]
     },
@@ -71,7 +74,8 @@
         {
           "type"   : "git",
           "url"    : "git://git.gnome.org/gspell.git",
-          "branch" : "gspell-1-2"
+          "branch" : "1.2.3",
+          "commit" : "e4d3a25384016ebe7ad5839f7e250cef5d096c24"
         }
       ]
     },
@@ -81,7 +85,8 @@
         {
           "type"   : "git",
           "url"    : "https://github.com/baedert/corebird",
-          "branch" : "cb-1.4"
+          "branch" : "1.4.2",
+          "commit" : "28775a1126e69eebbbc3ba892d5a528f6fdb914e"
         }
       ]
     }
