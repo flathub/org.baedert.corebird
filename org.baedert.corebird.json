@@ -69,18 +69,6 @@
         }
       ]
     },
-    /* we need gspell's vapi, but that needs vapigen, which isn't in the sdk... */
-    {
-      "name" : "vala",
-      "sources" : [
-        {
-          "type" : "git",
-          "url"  : "git://git.gnome.org/vala",
-          "branch" : "0.34.7",
-          "commit" : "ba9368c2552102841a5441eb9c5ef9632a4a4607"
-        }
-      ]
-    },
     {
       "name" : "gspell",
       "config-opts" : ["--enable-vala=yes"],
