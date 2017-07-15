@@ -1,10 +1,8 @@
 {
   "app-id": "org.baedert.corebird",
-  "branch": "stable",
   "runtime": "org.gnome.Platform",
   "runtime-version": "3.24",
   "sdk" : "org.gnome.Sdk",
-  "strip" : false,
   "command" : "corebird",
   "rename-icon" : "corebird",
   "copy-icon" : true,
@@ -32,14 +30,12 @@
   "modules" : [
     {
       "name" : "gst-libav",
-      "config-opts" : ["--with-libav-extra-configure='--disable-yasm'"],
       "cleanup" : ["*.la"],
       "sources" : [
         {
-          "type"   : "git",
-          "url"    : "git://anongit.freedesktop.org/gstreamer/gst-libav",
-          "branch" : "1.8.3",
-          "commit" : "99a08121307fb22e0b92d8980e4630d9b4b395ee"
+            "type" : "archive",
+            "url" : "https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.10.5.tar.xz",
+            "sha256" : "e4d2f315f478d47281fbfdfbd590a63d23704ca37911d7142d5992616f4b28d3"
         }
       ]
     },
@@ -48,10 +44,9 @@
       "cleanup" : ["/lib/librest-extras*"],
       "sources" : [
         {
-          "type"   : "git",
-          "url"    : "git://git.gnome.org/librest.git",
-          "branch" : "0.8.0",
-          "commit" : "e4e3f950a05ca14349b471d35cf5e2658cbc61dd"
+          "type" : "archive",
+          "url" : "https://download.gnome.org/sources/rest/0.8/rest-0.8.0.tar.xz",
+          "sha256" : "e7b89b200c1417073aef739e8a27ff2ab578056c27796ec74f5886a5e0dff647"
         }
       ]
     },
@@ -60,10 +55,9 @@
       "config-opts" : ["--enable-vala=yes"],
       "sources" : [
         {
-          "type"   : "git",
-          "url"    : "git://git.gnome.org/gspell.git",
-          "branch" : "1.2.3",
-          "commit" : "e4d3a25384016ebe7ad5839f7e250cef5d096c24"
+            "type" : "archive",
+            "url" : "https://download.gnome.org/sources/gspell/1.4/gspell-1.4.1.tar.xz",
+            "sha256" : "442f88fecd7f9e00a6a9d0af2d762744dd3c119217ff11d6739500f75b0f10be"
         }
       ]
     },
@@ -71,10 +65,9 @@
       "name" : "corebird",
       "sources" : [
         {
-          "type"   : "git",
-          "url"    : "https://github.com/baedert/corebird",
-          "branch" : "cb-1.5",
-          "commit" : "ff61eb56cd0fbbaedd610dda00b64582b248619c"
+          "type" : "archive",
+          "url" : "https://github.com/baedert/corebird/releases/download/1.5.1/corebird-1.5.1.tar.xz",
+          "sha256" : "e7b641a25e279d8251ca0a9fa2ef11a5dd364e369e1fa54f5545824dc96deda0"
         }
       ]
     }
