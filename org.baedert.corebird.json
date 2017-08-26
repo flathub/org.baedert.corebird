@@ -24,8 +24,8 @@
     "/lib/pkgconfig", "/lib/girepository-1.0",
     "/share/vala-0.34", "/bin/vala*", "/bin/vapi*",
     "/share/devhelp", "/share/aclocal", "/lib/*.la",
-    "/lib/libvala*", "/lib/vala-0.34", "/lib/debug/source/vala",
-    "/lib/debug/source/rest/rest-extras"
+    "/lib/libvala*", "/lib/vala-0.34",
+    "/share/gtk-doc", "/share/man", "/share/vala"
   ],
   "modules" : [
     {
