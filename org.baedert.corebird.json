@@ -55,8 +55,8 @@
       "sources" : [
         {
           "type" : "archive",
-          "url" : "https://github.com/baedert/corebird/releases/download/1.7.1/corebird-1.7.1.tar.xz",
-          "sha256" : "8a4760d5357b40ec8c71c8b3812f75a8515022843b91d3431fc1f0a66a517fc7"
+          "url" : "https://github.com/baedert/corebird/releases/download/1.7.2/corebird-1.7.2.tar.xz",
+          "sha256" : "9ab191599f9f7002c1c14379da752ab834fb433266db26279f3ea349937982b1"
         }
       ]
     }
